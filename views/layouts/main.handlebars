@@ -14,12 +14,12 @@
         <a href="/">The Tech Blog</a>
       </h1>
      <nav class="d-flex justify-content-between">
+      <a href="/">Homepage</a>
         {{#if loggedIn}}
         <a href="/dashboard">Dashboard</a>
         <button id="logout" class="btn btn btn-dark">Logout</button>
         {{else}}
         <a href="/login" class="btn btn-dark">Login</a>
-        <a href="/">Homepage</a>
         {{/if}}
       </nav>
     </header>
