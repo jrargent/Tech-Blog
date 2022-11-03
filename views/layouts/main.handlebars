@@ -16,9 +16,10 @@
      <nav class="d-flex justify-content-between">
         {{#if loggedIn}}
         <a href="/dashboard">Dashboard</a>
-        <button id="logout" class="btn-no-style">Logout</button>
+        <button id="logout" class="btn btn btn-dark">Logout</button>
         {{else}}
         <a href="/login" class="btn btn-dark">Login</a>
+        <a href="/">Homepage</a>
         {{/if}}
       </nav>
     </header>
