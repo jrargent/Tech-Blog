@@ -1,5 +1,19 @@
 # Tech-Blog
-For Module 14 MVC
+
+## Description
+For Module 14 MVC, this is a CMS-style blog site that uses a Model-View-Controller paradigm to allow for user sign in, post creation, and commenting. 
+
+## Link to Repo
+
+https://github.com/jrargent/Tech-Blog
+
+## Link to Deployed Website
+
+https://tranquil-dawn-57244.herokuapp.com/
+
+## Installation
+
+Once the files are on your local machine, open the terminal and enter the command 'npm i' to download the dependencies and npm files necessary.
 
 ## Acceptance Criteria
 
@@ -38,3 +52,11 @@ THEN I am signed out of the site
 WHEN I am idle on the site for more than a set time
 THEN I am able to view comments but I am prompted to log in again before I can add, update, or delete comments
 ```
+
+
+
+## Things I learned in this project
+- I really enjoy the backend and care not for the front-end  
+  - this is evidenced by the fact that I saved all css styling until the very end
+- I gained a better understanding of the Model-View-Controller paradigm
+- I gained a better understanding of API calls
