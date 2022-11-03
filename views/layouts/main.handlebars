@@ -5,21 +5,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>The Tech Blog</title>
-  <link rel="stylesheet" href="/stylesheets/style.css">
-</head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
 
 <body>
-  <div class="wrapper">
-    <header>
+  <div class="container">
+    <header class="bg-dark text-white">
       <h1>
         <a href="/">The Tech Blog</a>
       </h1>
-     <nav>
+     <nav class="d-flex justify-content-between">
         {{#if loggedIn}}
         <a href="/dashboard">Dashboard</a>
-        <button id="logout" class="btn-no-style">logout</button>
+        <button id="logout" class="btn-no-style">Logout</button>
         {{else}}
-        <a href="/login">login</a>
+        <a href="/login" class="btn btn-dark">Login</a>
         {{/if}}
       </nav>
     </header>
@@ -31,5 +30,5 @@
 <script src="/javascript/logout.js"></script>
 {{/if}}
 </body>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </html>
