@@ -1,11 +1,11 @@
-<article class="post mt-3 bg-secondary border border-dark rounded">
-  <div class="title bg-dark text-white">
+<article class="post card m-3 bg-secondary border border-dark rounded">
+  <div class="title card-title pl-2 bg-dark text-white">
     <h1>{{title}}</h1>
     </div>
-    <div>
+    <div class="card-body">
     <h2>{{post_contents}}</h2>
   </div>
-  <div class="meta">
+  <div class="meta card-body">
    by {{user.username}} on {{format_date created_at}}
   |
   <a href="/post/{{id}}">{{comments.length}} {{format_plural "comment" comments.length}}</a>

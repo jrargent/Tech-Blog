@@ -1,10 +1,10 @@
 <div class="comments">
   {{#each this}}
-  <section class="comment mt-3 bg-secondary border border-dark rounded">
-    <div class="meta bg-dark text-white">
+  <section class="comment m-3 bg-secondary border border-dark rounded">
+    <div class="meta pl-2 bg-dark text-white">
       {{user.username}} on {{format_date created_at}}
     </div>
-    <div class="text">
+    <div class="text p-2">
       {{comment_text}}
     </div>
   </section>

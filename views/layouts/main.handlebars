@@ -10,13 +10,13 @@
 <body>
   <div class="container">
     <header class="bg-dark text-white">
-      <h1>
+      <h1 class="pl-2">
         <a href="/">The Tech Blog</a>
       </h1>
      <nav class="d-flex justify-content-between">
-      <a href="/">Homepage</a>
+      <a href="/" class="btn btn-dark">Homepage</a>
         {{#if loggedIn}}
-        <a href="/dashboard">Dashboard</a>
+        <a href="/dashboard" class="btn btn-dark">Dashboard</a>
         <button id="logout" class="btn btn btn-dark">Logout</button>
         {{else}}
         <a href="/login" class="btn btn-dark">Login</a>

@@ -1,4 +1,4 @@
-<section class="mt-3 bg-secondary border border-dark rounded">
+<section class="mt-3 p-2 bg-secondary border border-dark rounded">
   <h2>Create New Post</h2>
 
   <form class="new-post-form">
@@ -10,18 +10,18 @@
       <label for="post-contents">Contents</label>
       <input type="text" id="post-contents" name="post-contents" class="form-control form-control-lg" />
     </div>
-    <button type="submit" class="btn btn-dark">Create</button>
+    <button type="submit" class="btn btn-dark mt-2">Create</button>
   </form>
 </section>
 
 {{#if posts.length}}
 <section class="mt-3 bg-secondary border border-dark rounded">
-  <h2>Your Posts</h2>
+  <h2 class="pl-2">Your Posts</h2>
   <ol>
     {{#each posts as |post|}}
-    <li class="m-3 border border-dark rounded">
+    <li class="m-3 p-2 border border-dark rounded">
       {{> post-info post}}
-      <a href="/dashboard/edit/{{post.id}}" class="edit-link btn btn-dark">Edit post</a>
+      <a href="/dashboard/edit/{{post.id}}" class="edit-link ml-3 btn btn-dark">Edit post</a>
     </li>
     {{/each}}
   </ol>
